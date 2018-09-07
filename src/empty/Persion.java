@@ -3,6 +3,14 @@ package empty;
 public class Persion {
 	private String name;
 	private int age;
+	private String address;
+	
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
 	public String getName() {
 		return name;
 	}
