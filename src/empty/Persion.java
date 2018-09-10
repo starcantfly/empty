@@ -23,6 +23,11 @@ public class Persion {
 	public void setAge(int age) {
 		this.age = age;
 	}
+	@Override
+	public String toString() {
+		return "Persion [name=" + name + ", age=" + age + ", address=" + address + "]";
+	}
+	
 	
 	
 }
